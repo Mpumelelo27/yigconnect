@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/eventNameIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_event_available_24px"/>
+
+    <TextView
+        android:id="@+id/affiliteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:text="Event name:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/eventNameIcon"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/affiliteEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/affiliteName"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="text2 long long l"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/eventDateIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eventNameIcon"
+        app:srcCompat="@drawable/ic_calendar_today_24px"/>
+
+    <TextView
+        android:id="@+id/affiliteDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:text="Event Date:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/eventDateIcon"
+        app:layout_constraintTop_toBottomOf="@id/eventNameIcon"/>
+
+    <TextView
+        android:id="@+id/affiliteEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/affiliteDate"
+        app:layout_constraintTop_toBottomOf="@id/eventNameIcon"
+        tools:text="Event name:"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/eventTimeIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eventDateIcon"
+        app:srcCompat="@drawable/ic_alarm_24px"/>
+
+    <TextView
+        android:id="@+id/affiliteTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:text="Event Time:"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/eventTimeIcon"
+        app:layout_constraintTop_toBottomOf="@id/eventDateIcon"/>
+
+    <TextView
+        android:id="@+id/affiliteEventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/affiliteTime"
+        app:layout_constraintTop_toBottomOf="@id/eventDateIcon"
+        tools:text="Event Time:"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

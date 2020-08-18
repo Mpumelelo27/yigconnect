@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">YIG Connect</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">Enter Email</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="not_log_in_register_from_here">Not Log IN | Register</string>
+    <string name="log_in">Log IN</string>
+    <string name="yig_connect_user_login_screen">YIG Connect User Login Screen</string>
+    <string name="yig_connect_user_registration">YIG Connect User Registration</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="insert_event">Insert Event</string>
+    <string name="update_event">Update Event</string>
+    <string name="delete_event">Delete Event</string>
+
+    <string-array name="UserRole">
+        <item>Admin</item>
+        <item>Affiliate</item>
+    </string-array>
+</resources>
